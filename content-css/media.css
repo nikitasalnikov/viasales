@@ -1,0 +1,399 @@
+        @media (max-width: 1150px) {
+            /* .main {
+                margin-left: 20px;
+            } */
+            .main__content {
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+            .main__users,
+            .main__courses {
+                max-width: 1150px;
+                width: 100%;
+                margin: 0 auto;
+                margin-bottom: 11px;
+                padding: 15px 15px;
+            }
+            .users__info,
+            .courses__info {
+                width: 98%;
+                display: flex;
+                justify-content: space-between;
+            }
+            .users__info-about {
+                width: 98%;
+                display: flex;
+                justify-content: space-between;
+            }
+            .users__border {
+                width: 100%;
+            }
+            .accordion-menu {
+                max-width: 1115px;
+                width: 100%;
+            }
+            .dropdownlink {
+                display: flex;
+                justify-content: space-between;
+            }
+            .submenuItems {
+                width: 98.9%;
+            }
+            .chart img {
+                width: 95%;
+            }
+            .chart__y span {
+                margin-top: 50px;
+            }
+            .chart__x {
+                width: 98%;
+                display: flex;
+                justify-content: space-around;
+            }
+            .main__group-bottom {
+                flex-wrap: wrap;
+                width: 95%;
+                align-items: center;
+                justify-content: center;
+            }
+            .main__bottom-card {
+                margin-right: 20px;
+                margin-bottom: 20px;
+            }
+            .left__arrow-slide {
+                margin-right: 20px;
+            }
+        }
+        
+        @media (max-width:1040px) {
+            .chart__y span {
+                margin-top: 45px;
+            }
+        }
+        
+        @media (max-width:950px) {
+            .chart__y span {
+                margin-top: 38px;
+            }
+        }
+        
+        @media (max-width:920px) {
+            .chart__x {
+                width: 96%;
+            }
+            .submenuItems {
+                width: 98.6%;
+                padding: 35px 15px;
+            }
+            .main__users,
+            .main__courses {
+                padding: 15px 25px;
+            }
+            .chart__y span::after {
+                display: none;
+            }
+        }
+        
+        @media (max-width:880px) {
+            .chart__y span {
+                margin-top: 30px;
+            }
+        }
+        
+        @media (max-width:800px) {
+            .chart__y span {
+                margin-top: 25px;
+            }
+            .submenuItems {
+                width: 98.2%;
+            }
+            .chart__x {
+                width: 94%;
+            }
+        }
+        
+        @media (max-width:760px) {
+            .sort__lists {
+                width: 135px;
+            }
+            .sort__list-icon {
+                margin-left: 29px;
+            }
+            .sort__lists-hidden {
+                width: 135px;
+                padding-left: 10px;
+            }
+        }
+        
+        @media (max-width:670px) {
+            .top__title {
+                margin-bottom: 15px;
+            }
+            .chart__y span {
+                margin-top: 15px;
+            }
+            .submenuItems {
+                width: 97.9%;
+                padding: 35px 35px;
+            }
+        }
+        
+        @media (max-width:650px) {
+            .main__group-top {
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+            }
+            .users__sort {
+                margin-left: 25px;
+            }
+            .users__links {
+                margin-left: 15px;
+            }
+            .users__icon {
+                margin-left: 11px;
+            }
+            .main__bottom-card:nth-of-type(3) {
+                margin-left: 30px;
+            }
+            .main__bottom-card:nth-of-type(5) {
+                margin-left: 35px;
+            }
+        }
+        
+        @media (max-width:590px) {
+            .dropdownlink {
+                width: 100%;
+                margin-left: -15px;
+            }
+            .users__info-about p {
+                font-size: 12px;
+            }
+            .user__info-group {
+                margin-left: 0;
+            }
+            .users__info-about {
+                margin-left: -15px;
+            }
+            .users__info {
+                margin-left: -15px;
+            }
+            .users__info-title,
+            .users__info-group,
+            .users__info-courses,
+            .users__info-progress {
+                font-size: 10px;
+            }
+            .courses__info {
+                margin-left: -15px;
+            }
+            .chart__y span {
+                margin-top: 10px;
+            }
+            .prog__num2 {
+                margin-left: 175px;
+            }
+            .skill_bar {
+                height: 35px;
+                width: 65px;
+            }
+            .skill_per {
+                height: 35px;
+            }
+            .submenuItems {
+                width: 100%;
+                margin-left: -15px;
+            }
+        }
+        
+        @media (max-width:560px) {
+            .accordeon__progress {
+                margin-left: 90px;
+            }
+            .main__bottom-card:nth-of-type(4) {
+                margin-left: 30px;
+            }
+        }
+        
+        @media (max-width:554px) {
+            .main__bottom-card:nth-of-type(2) {
+                margin-left: 30px;
+            }
+        }
+        
+        @media (max-width:530px) {
+            .users__info-about {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        
+        @media (max-width:525px) {
+            .main__bottom-card:not(:first-of-type) {
+                margin-left: 30px;
+            }
+        }
+        
+        @media (max-width:495px) {
+            .main__group-top {
+                flex-direction: column;
+            }
+            .sort__links {
+                margin-bottom: 25px;
+            }
+            .courses__sort {
+                margin-left: 30px;
+            }
+            .top__sort {
+                width: 390px;
+                margin-right: 0;
+                align-items: baseline;
+            }
+        }
+        
+        @media (max-width:480px) {
+            .dropdownlink,
+            .dropdownlink span {
+                font-size: 12px;
+            }
+            .submenuItems__lists {
+                margin-left: 65%;
+            }
+            .chart__x {
+                bottom: 0;
+                width: 90%;
+            }
+            .users__info-group {
+                margin-left: 25px;
+            }
+            .accordeon__progress {
+                margin-left: 40px;
+            }
+            .users__info-courses {
+                margin-left: 25px;
+            }
+            .main__bottom-card:not(:nth-child(2)) {
+                margin-left: 30px;
+            }
+        }
+        
+        @media (max-width:450px) {
+            /* .users__info {
+                flex-direction: column;
+                align-items: center;
+            } */
+            .dropdownlink {
+                flex-direction: column;
+                align-items: center;
+            }
+            .fa-graduation-cap {
+                margin-right: 0;
+                margin-bottom: 15px;
+            }
+            .menu__list-num {
+                margin-left: 0;
+                margin-top: 12px;
+                margin-bottom: 12px;
+            }
+            .accordeon__progress {
+                margin-left: 0;
+                margin-bottom: 12px;
+            }
+            .chart__x span:nth-of-type(2) {
+                margin-left: 10px;
+            }
+            .chart__x span:nth-of-type(3) {
+                margin-left: 20px;
+            }
+            .chart__x span:nth-of-type(4) {
+                margin-left: 20px;
+            }
+            .chart__x span:nth-of-type(5) {
+                margin-left: 20px;
+            }
+            .chart__x span:nth-of-type(6) {
+                margin-left: 20px;
+            }
+            .chart__x span:nth-of-type(7) {
+                margin-left: 25px;
+            }
+            .submenuItems__lists {
+                margin-left: 50%;
+            }
+            .chart__y {
+                left: -20px;
+            }
+            .chart img {
+                margin-left: 10px;
+            }
+            .chart__x {
+                bottom: 0;
+                width: 65%;
+            }
+            .chart__y span {
+                margin-top: 0px;
+                font-size: 8px;
+            }
+            .chart__x span {
+                font-size: 8px;
+            }
+            .users__sort {
+                flex-direction: column;
+                align-items: center;
+            }
+            .users__links {
+                margin-left: 0;
+                margin-top: 15px;
+            }
+            .courses__sort {
+                margin-left: -20px;
+                justify-content: space-around;
+            }
+            .users__sort {
+                margin-left: 0;
+            }
+        }
+        
+        @media (max-width:416px) {
+            .top__sort {
+                width: 350px;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        
+        @media (max-width:375px) {
+            .top__sort {
+                width: 315px;
+            }
+        }
+        
+        @media (max-width:360px) {
+            .chart__x {
+                bottom: -13px;
+                width: 50%;
+            }
+            .submenuItems__lists {
+                margin-left: 40%;
+            }
+            .sort__list-icon {
+                margin-left: 24px;
+            }
+            .sort__list {
+                font-size: 10px;
+            }
+            .courses__sort {
+                width: 285px;
+            }
+            .course__list-icon {
+                margin-left: 11px;
+            }
+            .top__sort {
+                width: 290px;
+            }
+            main {
+                overflow-x: hidden;
+            }
+        }
